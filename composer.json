@@ -18,8 +18,8 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "/home/mkrstic/script/yii2bs4/bs4grayscale/"
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     ],
     "autoload": {
