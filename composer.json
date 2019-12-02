@@ -1,0 +1,31 @@
+{
+    "name": "etailerrs/bs4grayscale",
+    "description": "The Bootstrap 4 template for the Yii framework",
+    "keywords": ["yii2", "bootstrap", "template", "grayscale"],
+    "type": "yii2-extension",
+    "version": "1.0.0",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Etailer.Rs",
+            "email": "bitbucket@etailer.rs",
+            "homepage": "https://www.etailer.rs"
+        }
+        
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.6"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/home/mkrstic/script/yii2bs4/bs4grayscale/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "etailerrs\\bs4grayscale\\":"src"
+        }
+        
+    }
+}
