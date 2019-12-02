@@ -4,6 +4,7 @@
     "keywords": ["yii2", "bootstrap", "template", "grayscale"],
     "type": "yii2-extension",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "version": "1.0.0",
     "license": "BSD-3-Clause",
     "authors": [
