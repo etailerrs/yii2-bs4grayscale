@@ -42,5 +42,9 @@ In your config/ directory, add new module in web.php:
 ~~~
 ...
 # After gii configuration
+$config['bootstrap'][] = 'bs4grayscale';
 
+$config['modules']['bs4grayscale'] = [
+	'class' => 'etailerrs\bs4grayscale\Module',
+];
 ~~~
