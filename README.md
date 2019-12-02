@@ -27,14 +27,6 @@ composer require etailerrs/bs4grayscale
 Now you should be able to access the application through the following URL, assuming `basic` is the directory
 directly under the Web root.
 
-~~~
-http://localhost?r=bs4grayscale
-
-or
-
-http://localhost/bs4grayscale
-~~~
-
 ### Configure Yii2
 
 In your config/ directory, add new module in web.php:
@@ -47,4 +39,14 @@ $config['bootstrap'][] = 'bs4grayscale';
 $config['modules']['bs4grayscale'] = [
 	'class' => 'etailerrs\bs4grayscale\Module',
 ];
+~~~
+
+### Test BS4 Grayscale
+
+~~~
+http://localhost?r=bs4grayscale
+
+or
+
+http://localhost/bs4grayscale
 ~~~
